@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <div class="headerLogo">
+                <img src="https://www.pngplay.com/wp-content/uploads/12/Pinterest-Logo-PNG-Images-HD.png" alt="Logo Pinterest">
+                <div class="headerLogoText">Pinterest</div>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <div class="navbarLogin">Entrar</div>
+                <div class="navbarCreateAccount">Criar conta</div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="principal">
+            <div class="mainContainer">
+                <input type="radio" name="frase" id="frase1" checked>
+                <input type="radio" name="frase" id="frase2">
+                <input type="radio" name="frase" id="frase3">
+                <input type="radio" name="frase" id="frase4">
+                <h1>Encontre sua próxima</h1>
+                <ul class="frasesDinamicas">
+                    <li><h2 class="frase f1" id="summerLook">ideia de look de verão</h2></li>
+                    <li><h2 class="frase f2" id="kidsActivity">atividade para crianças</h2></li>
+                    <li><h2 class="frase f3" id="specialDinner">ideia para um jantar especial</h2></li>
+                    <li><h2 class="frase f4" id="creativeIdea">ideia criativa para você fazer</h2></li>
+                </ul>
+            </div>
+            <div class="carrossel">
+                <label for="frase1"></label>
+                <label for="frase2"></label>
+                <label for="frase3"></label>
+                <label for="frase4"></label>
+
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
